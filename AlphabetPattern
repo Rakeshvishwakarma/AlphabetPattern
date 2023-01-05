@@ -1,9 +1,9 @@
 class Pattern{
     public static void charPattern(int n){
         int i = 1;
-        int count = 1;
         while (i <= n){
             int j = 1;
+            int count = i;
             while (j <= n){
                 char a= (char) ('A' + count - 1); // Type casting of values from INT A(65) //value to Charachter A 
                 System.out.print(a);
@@ -23,5 +23,5 @@ class Pattern{
 
 //output:
 // A B C
-// D E F
-// G H I
+// B C D
+// C D E
