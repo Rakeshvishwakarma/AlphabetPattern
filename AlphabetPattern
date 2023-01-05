@@ -4,7 +4,7 @@ class Pattern{
         while (i <= n){
             int j = 1;
             while (j <= i){
-                char a= (char) ('A' + j - 1 ); // Type casting of values from INT A(65) //value to Charachter A 
+                char a= (char) ('A' + i - 1 ); // Type casting of values from INT A(65) //value to Charachter A 
                 System.out.print(a);
                 j += 1;
                 System.out.print(" ");
@@ -21,5 +21,5 @@ class Pattern{
 
 //output:
 // A 
-// A B
-// A B C
+// B B
+// C C C
